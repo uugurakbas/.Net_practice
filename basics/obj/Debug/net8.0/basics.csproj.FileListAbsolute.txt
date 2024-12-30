@@ -31,3 +31,4 @@ C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\basics\obj\Debug\net8.0\re
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\basics\obj\Debug\net8.0\basics.pdb
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\basics\obj\Debug\net8.0\basics.genruntimeconfig.cache
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\basics\obj\Debug\net8.0\ref\basics.dll
+C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\basics\obj\Debug\net8.0\basics.sourcelink.json

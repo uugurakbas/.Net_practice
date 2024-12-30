@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\a.webp",
+      "PackagePath": "staticwebassets\\img\\a.webp"
+    },
+    {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\b.jpg",
+      "PackagePath": "staticwebassets\\img\\b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\c.jpg",
+      "PackagePath": "staticwebassets\\img\\c.jpg"
+    },
+    {
       "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

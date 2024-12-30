@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r2WY0EZKFBc5jQQE+DWZnK4cmGoScgGoVGs2yFDy0KM=",
+  "Hash": "RWEPF9P2HkaTAQ6ScninCFASXpORvuPBQs6mb5p9ZlQ=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -99,6 +99,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\a.webp",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "img/a#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kil5styu8y",
+      "Integrity": "1DOOPV1HUCOFa7wyJKmgnYpWrOZW09nmxKuo1qyiHZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\a.webp"
+    },
+    {
+      "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\b.jpg",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "img/b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lbffv8fwrs",
+      "Integrity": "UYrfnC27iVIxUeUHcNxunlbKKLNBawyg4ElC6m4/SnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\c.jpg",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "img/c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x93q6sayut",
+      "Integrity": "FWmTyqQ2ez8w+3Z6GZgQWMAZXMpBKVwrEULe2QlFeMU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c.jpg"
     },
     {
       "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\js\\site.js",
@@ -1645,6 +1708,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/a.kil5styu8y.webp",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DOOPV1HUCOFa7wyJKmgnYpWrOZW09nmxKuo1qyiHZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:50:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kil5styu8y"
+        },
+        {
+          "Name": "label",
+          "Value": "img/a.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DOOPV1HUCOFa7wyJKmgnYpWrOZW09nmxKuo1qyiHZE="
+        }
+      ]
+    },
+    {
+      "Route": "img/a.webp",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\a.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1DOOPV1HUCOFa7wyJKmgnYpWrOZW09nmxKuo1qyiHZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:50:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1DOOPV1HUCOFa7wyJKmgnYpWrOZW09nmxKuo1qyiHZE="
+        }
+      ]
+    },
+    {
+      "Route": "img/b.jpg",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1413205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UYrfnC27iVIxUeUHcNxunlbKKLNBawyg4ElC6m4/SnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UYrfnC27iVIxUeUHcNxunlbKKLNBawyg4ElC6m4/SnM="
+        }
+      ]
+    },
+    {
+      "Route": "img/b.lbffv8fwrs.jpg",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1413205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UYrfnC27iVIxUeUHcNxunlbKKLNBawyg4ElC6m4/SnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lbffv8fwrs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UYrfnC27iVIxUeUHcNxunlbKKLNBawyg4ElC6m4/SnM="
+        }
+      ]
+    },
+    {
+      "Route": "img/c.jpg",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2625313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FWmTyqQ2ez8w+3Z6GZgQWMAZXMpBKVwrEULe2QlFeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FWmTyqQ2ez8w+3Z6GZgQWMAZXMpBKVwrEULe2QlFeMU="
+        }
+      ]
+    },
+    {
+      "Route": "img/c.x93q6sayut.jpg",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\img\\c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2625313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FWmTyqQ2ez8w+3Z6GZgQWMAZXMpBKVwrEULe2QlFeMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 13:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x93q6sayut"
+        },
+        {
+          "Name": "label",
+          "Value": "img/c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FWmTyqQ2ez8w+3Z6GZgQWMAZXMpBKVwrEULe2QlFeMU="
         }
       ]
     },
