@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RWEPF9P2HkaTAQ6ScninCFASXpORvuPBQs6mb5p9ZlQ=",
+  "Hash": "kfbsAau7ptwfzRPNU9wqOZmFEAdh1mkpM2r+aAighws=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\basics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\css\\contact.css",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "css/contact#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\css\\site.css",
@@ -1544,6 +1565,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+H9YUINxnt6EyKpV5HVsbQEGl++myXcQ8Vxym6wK9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/contact.5ipweew5fc.css",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\css\\contact.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/contact.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "css/contact.css",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\basics\\wwwroot\\css\\contact.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 08:47:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },
