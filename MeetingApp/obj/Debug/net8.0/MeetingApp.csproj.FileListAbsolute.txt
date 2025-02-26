@@ -29,3 +29,5 @@ C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\obj\Debug\net8.
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\obj\Debug\net8.0\ref\MeetingApp.dll
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\bin\Debug\net8.0\libman.json
+C:\Users\ugura\OneDrive\Belgeler\GitHub\.Net_practice\MeetingApp\bin\Debug\net8.0\MeetingApp.staticwebassets.runtime.json
