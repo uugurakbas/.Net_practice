@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace FormsApp.Models
 {   
@@ -7,6 +8,7 @@ namespace FormsApp.Models
         [Display(Name = "Ürün Id")]
         public int ProductId { get; set; }
 
+        [Required]
         [Display(Name = "Ürün Adı")]
         public string Name { get; set; } = string.Empty;
 
@@ -18,7 +20,8 @@ namespace FormsApp.Models
 
         public bool IsActive { get; set; }
 
-        public int CategoryID { get; set; }
+        [Display(Name = "Kategori")]
+        public int CategoryId { get; set; }
     }
     
 }
