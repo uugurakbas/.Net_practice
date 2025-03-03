@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\0dacdf04-73e2-4356-9d63-046932fd10f1.png",
+      "PackagePath": "staticwebassets\\img\\0dacdf04-73e2-4356-9d63-046932fd10f1.png"
+    },
+    {
       "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\1.jpg",
       "PackagePath": "staticwebassets\\img\\1.jpg"
     },
@@ -37,6 +41,10 @@
       "PackagePath": "staticwebassets\\img\\5.jpg"
     },
     {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\5dc48e45-c97a-44b1-83f1-d9df51b30158.jpg",
+      "PackagePath": "staticwebassets\\img\\5dc48e45-c97a-44b1-83f1-d9df51b30158.jpg"
+    },
+    {
       "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\6.jpg",
       "PackagePath": "staticwebassets\\img\\6.jpg"
     },
@@ -49,8 +57,20 @@
       "PackagePath": "staticwebassets\\img\\689b40b9-ba20-438a-b2ed-f614a55353fe.jpg"
     },
     {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\b8871fb7-c680-410c-9ffa-2a9c823daffc.jpg",
+      "PackagePath": "staticwebassets\\img\\b8871fb7-c680-410c-9ffa-2a9c823daffc.jpg"
+    },
+    {
       "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg",
       "PackagePath": "staticwebassets\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\e6bd7bc6-f8f3-4ea4-adb1-e6a6d0178ca5.jpg",
+      "PackagePath": "staticwebassets\\img\\e6bd7bc6-f8f3-4ea4-adb1-e6a6d0178ca5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\img\\ec6df553-dc31-406f-beea-f7dd7dbde0dd.png",
+      "PackagePath": "staticwebassets\\img\\ec6df553-dc31-406f-beea-f7dd7dbde0dd.png"
     },
     {
       "Id": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\js\\site.js",

@@ -10,10 +10,11 @@ namespace FormsApp.Models
 
         [Required]
         [Display(Name = "Ürün Adı")]
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; set; } = null!;
 
+        [Required]
         [Display(Name = "Fiyat")]
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
 
         [Display(Name = "Resim")]
         public string Image { get; set; } = string.Empty;
