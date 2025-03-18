@@ -3,7 +3,7 @@
 <h2>Öğrenci Listesi</h2>
 <a href="/Ogrenci/Create" class="btn btn-primary">Öğrenci Ekle</a>
 <hr>
-<table class="table table-border">
+<table class="table table-bordered">
     <thead>
         <tr>
             <th style="width: 150px;">@Html.DisplayNameFor(m => m.OgrenciId)</th>
@@ -19,8 +19,8 @@
                 <td>@Html.DisplayFor(modelItem => item.OgrenciAd)</td>
                 <td>@Html.DisplayFor(modelItem => item.OgrenciSoyad)</td>
                 <td>
-                    <a href="" class="btn btn-sm btn-primary">Details</a>
-                    <a href="" class="btn btn-sm btn-danger">Delete</a>
+                    <a asp-controller="Ogrenci" asp-action="Edit" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-controller="Ogrenci" asp-action="Delete" asp-route-id="@item.OgrenciId" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
         }
