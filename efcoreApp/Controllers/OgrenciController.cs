@@ -30,7 +30,7 @@ namespace efcoreApp.Controllers
         {
             _context.Ogrenciler.Add(model);
             await _context.SaveChangesAsync();
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Edit(int? id){
@@ -39,8 +39,8 @@ namespace efcoreApp.Controllers
 
                 return NotFound();
             }
-
-            var ogr = await _context.Ogrenciler.FindAsync(id);
+    
+            var ogr = await _context.Ogrenciler.Include(o => o.KursKayitlari).ThenInclude(O => O.Kurs).FirstOrDefaultAsync(o => o.OgrenciId == id);
             //aynı  işe yarar
             //var ogr = await _context.Ogrenciler.FirstOrDefaultAsync(o => o.OgrenciId == id);
             
