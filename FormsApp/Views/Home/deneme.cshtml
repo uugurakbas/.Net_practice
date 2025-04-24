@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Deneme";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/style.css" />
+}
+
+<div class="container">
+    <h1>Deneme Sayfası</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Bu bir deneme sayfasıdır.</p>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-6 text-center">
+            <button class="game-button single-player">
+                <i class="fas fa-user"></i>
+                <span>Single Player</span>
+            </button>
+        </div>
+        <div class="col-md-6 text-center">
+            <button class="game-button multiplayer">
+                <i class="fas fa-users"></i>
+                <span>Multiplayer</span>
+            </button>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <a href="/Home/Index" class="btn btn-primary">
+                <i class="fas fa-home"></i> Ana Sayfaya Dön
+            </a>
+        </div>
+    </div>
+</div>
+

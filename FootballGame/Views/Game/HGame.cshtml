@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <select id="leagueSelect" class="form-select">
+                    <option value="">Bir lig seçin</option>
+                </select>
+                <button onclick="loadTeams()">Ligi Seç</button>
+            </div>
+            <div class="col-md-5">
+                
+                <canvas id="wheelCanvas" width="400" height="400" style="margin-top: 20px;"></canvas>
+                <br />
+                <button onclick="spinWheel()" class="btn btn-primary mt-3">Çevir</button>
+            </div>
+            <div class="col-md-5">c</div>
+        </div>
+    </div>
+</body>
+
+</html>

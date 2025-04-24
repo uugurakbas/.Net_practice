@@ -1,0 +1,34 @@
+.game-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+}
+
+.game-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.game-button i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.single-player {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+}
+
+.multiplayer {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+} 

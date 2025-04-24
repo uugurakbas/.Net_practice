@@ -1,0 +1,47 @@
+.wheel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+#wheelCanvas {
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+#spinButton {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+}
+
+#settingsButton {
+    margin-left: 20px;
+    padding: 8px 16px;
+}
+
+#settingsButton i {
+    margin-right: 5px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    border-radius: 0 0 10px 10px;
+}
+
+#leagueSelect {
+    padding: 10px;
+    font-size: 1.1em;
+} 

@@ -1,0 +1,59 @@
+@model PlayersViewModel
+@{
+ViewData["Title"] = "Game 1";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/custom-animation.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center" id="image-row">
+
+            @if (ViewBag.ComparisonResult != null)
+            {
+                <p>kkkk</p>
+                <div class="alert alert-info mt-4">
+                    @ViewBag.ComparisonResult
+                </div>
+            }
+            <div class="col-md-3 text-center" id="left-card">
+                <div class="ratio ratio-1x1">
+                    <img id="left-image" src="~/img/@Model.Players[0].PlayerImage"
+                        class="img-fluid w-100 rounded mb-3 object-fit-cover" alt="Görsel">
+                </div>
+                <form asp-controller="Game" asp-action="Compare" method="post">
+                    <input type="hidden" name="selectedPlayerId" value="@Model.Players[0].ID" />
+                    <button type="submit" class="btn btn-primary w-100 mt-3">@Model.Players[0].PlayerName</button>
+                </form>
+            </div>
+
+            <div class="col-md-3 text-center" id="right-card">
+                <div class="ratio ratio-1x1">
+                    <img id="right-image" src="~/img/@Model.Players[1].PlayerImage"
+                        class="img-fluid w-100 rounded mb-3 object-fit-cover" alt="Görsel">
+                </div>
+
+
+                <form asp-controller="Game" asp-action="Compare" method="post">
+                    <input type="hidden" name="selectedPlayerId" value="@Model.Players[1].ID" />
+                    <button type="submit" class="btn btn-primary w-100 mt-3">@Model.Players[1].PlayerName</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

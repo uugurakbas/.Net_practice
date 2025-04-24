@@ -1,0 +1,19 @@
+﻿@model List<IBB.Models.IsparkModel>
+
+@{
+    ViewData["Title"] = "İSPARK Otoparkları";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div id="map" style="height: 800px;" data-parks='@Json.Serialize(Model)'></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="~/js/script.js"></script>
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OSHbomjeVsyxI20ByptJfONsVkePRySGPysQQGHGK2o=",
+  "Hash": "XDTwalfZRQs66vEEN5MiFhajPVqhiZVJGn/3cF1i2T4=",
   "Source": "FormsApp",
   "BasePath": "_content/FormsApp",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\css\\style.css",
+      "SourceId": "FormsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\",
+      "BasePath": "_content/FormsApp",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tv6hby0eay",
+      "Integrity": "549WtVaWxSKRoH3G9vCvEO9RbQjL6gCPVz6IBxzxsbE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\favicon.ico",
@@ -1714,6 +1735,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"549WtVaWxSKRoH3G9vCvEO9RbQjL6gCPVz6IBxzxsbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 05:33:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-549WtVaWxSKRoH3G9vCvEO9RbQjL6gCPVz6IBxzxsbE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.tv6hby0eay.css",
+      "AssetFile": "C:\\Users\\ugura\\OneDrive\\Belgeler\\GitHub\\.Net_practice\\FormsApp\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"549WtVaWxSKRoH3G9vCvEO9RbQjL6gCPVz6IBxzxsbE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 05:33:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tv6hby0eay"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-549WtVaWxSKRoH3G9vCvEO9RbQjL6gCPVz6IBxzxsbE="
         }
       ]
     },
