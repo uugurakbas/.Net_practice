@@ -9,6 +9,7 @@ public class Player{
     public int PlayerPrice { get; set; }
 
     public string? PlayerCountry { get; set; }
+    public string? PlayerPosition { get; set; }
 
     public string PlayerImage { get; set; } = string.Empty;
 }

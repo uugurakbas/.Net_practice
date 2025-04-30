@@ -16,13 +16,30 @@ ViewData["Title"] = "Game 1";
     <div class="container py-5">
         <div class="row justify-content-center" id="image-row">
 
+            <h2 class="text-center">Hangisi Daha Pahalı</h2>
+
             @if (ViewBag.ComparisonResult != null)
             {
-                <p>kkkk</p>
                 <div class="alert alert-info mt-4">
                     @ViewBag.ComparisonResult
                 </div>
             }
+            <!--sağ info-->
+            <div class="col-md-3 d-flex flex-column align-items-end text-center">
+                <div>
+                    <p>Bilgiler</p>
+                    <span class="fi fi-@(Model.Players[0].PlayerCountry?.ToLower()) fs-3"></span> 
+                    <p class="mt-3">Yaş : @Model.Players[0].PlayerAge</p>
+                    @if (ViewBag.ComparisonResult != null)
+                    {
+                        <p class="mt-3">Piyasa Değeri</p>
+                        <p class="mt-1">@Model.Players[0].PlayerPrice</p>
+
+                    }
+                </div>
+            </div>
+
+            <!--sağ kart-->
             <div class="col-md-3 text-center" id="left-card">
                 <div class="ratio ratio-1x1">
                     <img id="left-image" src="~/img/@Model.Players[0].PlayerImage"
@@ -30,10 +47,26 @@ ViewData["Title"] = "Game 1";
                 </div>
                 <form asp-controller="Game" asp-action="Compare" method="post">
                     <input type="hidden" name="selectedPlayerId" value="@Model.Players[0].ID" />
+                    <input type="hidden" name="player1.ID" value="@Model.Players[0].ID" />
+                    <input type="hidden" name="player1.PlayerName" value="@Model.Players[0].PlayerName" />
+                    <input type="hidden" name="player1.PlayerAge" value="@Model.Players[0].PlayerAge" />
+                    <input type="hidden" name="player1.PlayerPrice" value="@Model.Players[0].PlayerPrice" />
+                    <input type="hidden" name="player1.PlayerCountry" value="@Model.Players[0].PlayerCountry" />
+                    <input type="hidden" name="player1.PlayerImage" value="@Model.Players[0].PlayerImage" />
+                    <input type="hidden" name="player1.PlayerPosition" value="@Model.Players[0].PlayerPosition" />
+                
+                    <input type="hidden" name="player2.ID" value="@Model.Players[1].ID" />
+                    <input type="hidden" name="player2.PlayerName" value="@Model.Players[1].PlayerName" />
+                    <input type="hidden" name="player2.PlayerAge" value="@Model.Players[1].PlayerAge" />
+                    <input type="hidden" name="player2.PlayerPrice" value="@Model.Players[1].PlayerPrice" />
+                    <input type="hidden" name="player2.PlayerCountry" value="@Model.Players[1].PlayerCountry" />
+                    <input type="hidden" name="player2.PlayerImage" value="@Model.Players[1].PlayerImage" />
+                    <input type="hidden" name="player2.PlayerPosition" value="@Model.Players[1].PlayerPosition" />
                     <button type="submit" class="btn btn-primary w-100 mt-3">@Model.Players[0].PlayerName</button>
                 </form>
             </div>
 
+            <!--sol kart-->
             <div class="col-md-3 text-center" id="right-card">
                 <div class="ratio ratio-1x1">
                     <img id="right-image" src="~/img/@Model.Players[1].PlayerImage"
@@ -42,14 +75,43 @@ ViewData["Title"] = "Game 1";
 
 
                 <form asp-controller="Game" asp-action="Compare" method="post">
-                    <input type="hidden" name="selectedPlayerId" value="@Model.Players[1].ID" />
+                    <input type="hidden" name="selectedPlayerId" value="@Model.Players[0].ID" />
+                    <input type="hidden" name="player1.ID" value="@Model.Players[0].ID" />
+                    <input type="hidden" name="player1.PlayerName" value="@Model.Players[0].PlayerName" />
+                    <input type="hidden" name="player1.PlayerAge" value="@Model.Players[0].PlayerAge" />
+                    <input type="hidden" name="player1.PlayerPrice" value="@Model.Players[0].PlayerPrice" />
+                    <input type="hidden" name="player1.PlayerCountry" value="@Model.Players[0].PlayerCountry" />
+                    <input type="hidden" name="player1.PlayerImage" value="@Model.Players[0].PlayerImage" />
+                    <input type="hidden" name="player1.PlayerPosition" value="@Model.Players[0].PlayerPosition" />
+                
+                    <input type="hidden" name="player2.ID" value="@Model.Players[1].ID" />
+                    <input type="hidden" name="player2.PlayerName" value="@Model.Players[1].PlayerName" />
+                    <input type="hidden" name="player2.PlayerAge" value="@Model.Players[1].PlayerAge" />
+                    <input type="hidden" name="player2.PlayerPrice" value="@Model.Players[1].PlayerPrice" />
+                    <input type="hidden" name="player2.PlayerCountry" value="@Model.Players[1].PlayerCountry" />
+                    <input type="hidden" name="player2.PlayerImage" value="@Model.Players[1].PlayerImage" />
+                    <input type="hidden" name="player2.PlayerPosition" value="@Model.Players[1].PlayerPosition" />
                     <button type="submit" class="btn btn-primary w-100 mt-3">@Model.Players[1].PlayerName</button>
                 </form>
             </div>
 
+            <!--sol info-->
+            <div class="col-md-3 d-flex flex-column align-items-start text-center">
+                <div>
+                    <p>Bilgiler</p>
+                    <span class="fi fi-@(Model.Players[1].PlayerCountry?.ToLower()) fs-3"></span>
+                    <p class="mt-3">Yaş : @Model.Players[1].PlayerAge</p>
+                    @if (ViewBag.ComparisonResult != null)
+                    {
+                        <p class="mt-3">Piyasa Değeri</p>
+                        <p class="mt-1">@Model.Players[1].PlayerPrice</p>
+                    }
+                </div>
+            </div>
 
-
-
+            <form asp-controller="Game" asp-action="GameOne" method="get">
+                <button type="submit" class="btn btn-success mt-4">Devam Et</button>
+            </form>
         </div>
     </div>
 

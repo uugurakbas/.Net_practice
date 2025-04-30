@@ -7,40 +7,65 @@ public class GameController : Controller
 {
     public IActionResult GameOne()
     {
-        var model = new PlayersViewModel
-        {
-            Players = Repository.Players
-        };
+            var allPlayers = Repository.Players;
+            var random = new Random();
 
-        return View(model);
-    }
-
-        [HttpPost]
-        public IActionResult Compare(int selectedPlayerId)
-        {
-            var players = Repository.Players;
-            var selected = players.FirstOrDefault(p => p.ID == selectedPlayerId);
-            var other = players.FirstOrDefault(p => p.ID != selectedPlayerId);
-
-            if (selected == null || other == null)
+            if (allPlayers.Count < 2)
             {
-                Console.WriteLine("ss");
-                return RedirectToAction("GameOne");
-
+                return View("Error"); // Yeterli oyuncu yoksa
             }
 
-            string resultMessage = selected.PlayerPrice > other.PlayerPrice
-                ? $"{selected.PlayerName} daha pahalı!"
-                : $"{other.PlayerName} daha pahalı!";
+            int firstIndex = random.Next(allPlayers.Count);
+            int secondIndex;
 
-            ViewBag.ComparisonResult = resultMessage;
-
-            var model = new PlayersViewModel
+            do
             {
-                Players = players
-            };
-            Console.WriteLine("KK");
-            return View("GameOne", model); // Index sayfasına yönlendirir
-        }
+                secondIndex = random.Next(allPlayers.Count);
+            } while (secondIndex == firstIndex);
 
+            var selectedPlayers = new List<Player>
+            {
+                allPlayers[firstIndex],
+                allPlayers[secondIndex]
+            };
+
+            var viewModel = new PlayersViewModel
+            {
+                Players = selectedPlayers
+            };
+
+            return View(viewModel);
+    }
+
+    [HttpPost]
+public IActionResult Compare(int selectedPlayerId, Player player1, Player player2)
+{
+    string result;
+
+    if(player1.PlayerPrice == player2.PlayerPrice){
+            result = $"Eşit";
+    }
+    else if (player1.ID == selectedPlayerId)
+    {
+
+        result = player1.PlayerPrice > player2.PlayerPrice
+            ? $"{player1.PlayerName} daha pahalı!"
+            : $"{player1.PlayerName} daha ucuz!";
+    }
+    else
+    {
+        result = player2.PlayerPrice > player1.PlayerPrice
+            ? $"{player2.PlayerName} daha pahalı!"
+            : $"{player2.PlayerName} daha ucuz!";
+    }
+
+    var viewModel = new PlayersViewModel
+    {
+        Players = new List<Player> { player1, player2 }
+    };
+
+    ViewBag.ComparisonResult = result;
+
+    return View("GameOne", viewModel); // Game1.cshtml sayfasını yükle ama aynı oyuncularla
+}
 }
